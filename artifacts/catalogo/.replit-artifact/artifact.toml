@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Catálogo de Produtos"
+version = "1.0.0"
+id = "artifacts/catalogo"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23421
+
+[services.development]
+run = "pnpm --filter @workspace/catalogo run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/catalogo", "run", "build" ]
+publicDir = "artifacts/catalogo/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23421"
+BASE_PATH = "/"
