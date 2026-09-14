@@ -42,8 +42,8 @@
       "description": "Tônico facial que remove resíduos de impurezas, equilibra o pH da pele e prepara o rosto para melhor absorção dos produtos seguintes.",
       "category": "Skincare",
       "code": "PER-005",
-      "image": "/products/placeholder.svg",
-      "images": ["/products/placeholder.svg"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.47_1_uqrh0z.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.47_1_uqrh0z.jpg"],
       "promo": false
     },
     {
