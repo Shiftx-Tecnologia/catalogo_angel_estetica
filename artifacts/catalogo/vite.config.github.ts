@@ -4,11 +4,8 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 import { fileURLToPath } from "url";
 
-// Substitua "camarim-store" pelo nome do seu repositório no GitHub
-const repoName = fileURLToPath(new URL(".", import.meta.url));
-
 export default defineConfig({
-  base: "/camarim_store/",
+  base: "/catalogo_angel_estetica/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
