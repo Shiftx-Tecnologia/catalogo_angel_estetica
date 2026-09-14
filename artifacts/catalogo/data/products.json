@@ -52,8 +52,8 @@
       "description": "Sérum facial 5 em 1 que hidrata, ilumina, firma, reduz a aparência dos poros e uniformiza o tom da pele em uma única fórmula.",
       "category": "Skincare",
       "code": "SER-001",
-      "image": "/products/placeholder.svg",
-      "images": ["/products/placeholder.svg"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.49_2_nj2ov9.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.49_2_nj2ov9.jpg"],
       "promo": false
     },
     {
