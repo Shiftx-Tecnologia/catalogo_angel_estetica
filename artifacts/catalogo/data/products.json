@@ -3,7 +3,7 @@
     "storeName": "ANGEL ESTÉTICA",
     "storeTagline": "Beleza, cuidados e experiências que iluminam o seu dia",
     "whatsapp": "5548996320935",
-    "whatsappMessage": "Olá, tenho interesse no produto {nome}\n\nNome: {nome}\nCategoria: {categoria}\nImagem: {imagem}"
+    "whatsappMessage": "Olá, tenho interesse no produto {nome}\n\nNome: {nome}\nCategoria: {categoria}"
   },
   "categories": [
     {
@@ -62,8 +62,8 @@
       "description": "Técnica que alonga e dá volume aos cílios naturais, realçando o olhar com um resultado leve e duradouro.",
       "category": "Procedimentos estéticos",
       "code": "PRO-001",
-      "image": "/products/placeholder.svg",
-      "images": ["/products/placeholder.svg"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492586/extensao_y0txwi.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492586/extensao_y0txwi.jpg"],
       "promo": false
     },
     {
@@ -72,8 +72,8 @@
       "description": "Modelagem que ajusta o formato das sobrancelhas ao contorno do rosto, trazendo simetria e harmonia à expressão.",
       "category": "Procedimentos estéticos",
       "code": "PRO-002",
-      "image": "/products/placeholder.svg",
-      "images": ["/products/placeholder.svg"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492587/design-de-sobrancelhas-1-811x526_uz76bw.webp",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492587/design-de-sobrancelhas-1-811x526_uz76bw.webp"],
       "promo": false
     },
     {
@@ -82,18 +82,8 @@
       "description": "Procedimento que remove cravos, impurezas e células mortas, promovendo uma pele mais limpa, saudável e uniforme.",
       "category": "Procedimentos estéticos",
       "code": "PRO-003",
-      "image": "/products/placeholder.svg",
-      "images": ["/products/placeholder.svg"],
-      "promo": false
-    },
-    {
-      "id": 9,
-      "name": "Peeling",
-      "description": "Esfoliação que renova a pele ao remover camadas superficiais, atenuando manchas, marcas e sinais de envelhecimento.",
-      "category": "Procedimentos estéticos",
-      "code": "PRO-004",
-      "image": "/products/placeholder.svg",
-      "images": ["/products/placeholder.svg"],
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492586/limpeza-de-pele-1-811x526_wcrrrv.png",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492586/limpeza-de-pele-1-811x526_wcrrrv.png"],
       "promo": false
     }
   ]
