@@ -50,15 +50,15 @@ export default function Home() {
   }, [openProduct]);
 
   const filtered = useMemo(() => {
-    return products.filter((p) => {
-      const matchCat = p.category === activeCat;
-      const term = search.trim().toLowerCase();
-      const matchSearch = !term ||
+    const term = search.trim().toLowerCase();
+    if (term) {
+      return products.filter((p) =>
         p.name.toLowerCase().includes(term) ||
         p.description.toLowerCase().includes(term) ||
-        p.code.toLowerCase().includes(term);
-      return matchCat && matchSearch;
-    });
+        p.code.toLowerCase().includes(term)
+      );
+    }
+    return products.filter((p) => p.category === activeCat);
   }, [activeCat, search]);
 
   const onCat = (c: string) => {
@@ -69,7 +69,6 @@ export default function Home() {
   const buildWaLink = (p: Product) => {
     let msg = config.whatsappMessage;
     msg = msg.replace(/{nome}/g, p.name);
-    msg = msg.replace(/{categoria}/g, p.category);
     return `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(msg)}`;
   };
 
@@ -136,7 +135,7 @@ export default function Home() {
           <div className="filter-bar">
             <span className="filter-label">Exibindo:</span>
             <span className="filter-badge">
-              {activeCat}
+              {search.trim() ? "Resultados da busca" : activeCat}
             </span>
           </div>
 

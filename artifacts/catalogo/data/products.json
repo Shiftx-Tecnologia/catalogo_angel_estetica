@@ -3,7 +3,7 @@
     "storeName": "ANGEL ESTÉTICA",
     "storeTagline": "Beleza, cuidados e experiências que iluminam o seu dia",
     "whatsapp": "5548996320935",
-    "whatsappMessage": "Olá, tenho interesse no produto {nome}\n\nNome: {nome}\nCategoria: {categoria}"
+    "whatsappMessage": "Olá, tenho interesse no produto {nome}"
   },
   "categories": [
     {
