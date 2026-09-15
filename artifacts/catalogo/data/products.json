@@ -21,7 +21,7 @@
       "name": "Kit Skincare",
       "description": "Kit contendo 1 Espuma facial, 1 Tônico e 1 Serum facial.",
       "category": "Skincare",
-      "code": "PER-001",
+      "code": "SKN-001",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068111/WhatsApp_Image_2026-09-10_at_16.09.56_jv4j17.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068111/WhatsApp_Image_2026-09-10_at_16.09.56_jv4j17.jpg"],
       "promo": false
@@ -31,7 +31,7 @@
       "name": "Espuma facial",
       "description": "Espuma de limpeza facial que remove maquiagem e impurezas com suavidade, deixando a pele limpa, macia e refrescada.",
       "category": "Skincare",
-      "code": "PER-002",
+      "code": "SKN-002",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068110/WhatsApp_Image_2026-09-10_at_16.09.50_fksox7.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068110/WhatsApp_Image_2026-09-10_at_16.09.50_fksox7.jpg"],
       "promo": false
@@ -41,7 +41,7 @@
       "name": "Tônico facial",
       "description": "Tônico facial que remove resíduos de impurezas, equilibra o pH da pele e prepara o rosto para melhor absorção dos produtos seguintes.",
       "category": "Skincare",
-      "code": "PER-005",
+      "code": "SKN-003",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.47_1_uqrh0z.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.47_1_uqrh0z.jpg"],
       "promo": false
@@ -51,7 +51,7 @@
       "name": "Serum 5x1",
       "description": "Sérum facial 5 em 1 que hidrata, ilumina, firma, reduz a aparência dos poros e uniformiza o tom da pele em uma única fórmula.",
       "category": "Skincare",
-      "code": "SER-001",
+      "code": "SKN-004",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.49_2_nj2ov9.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.49_2_nj2ov9.jpg"],
       "promo": false
