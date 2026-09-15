@@ -85,6 +85,46 @@
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492586/limpeza-de-pele-1-811x526_wcrrrv.png",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492586/limpeza-de-pele-1-811x526_wcrrrv.png"],
       "promo": false
+    },
+    {
+      "id": 11,
+      "name": "Buço",
+      "description": "Remoção dos pelos do buço com técnica precisa, deixando a região lisa e uniforme.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-004",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/depilacao-de-buco-3_hyelup.webp",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/depilacao-de-buco-3_hyelup.webp"],
+      "promo": false
+    },
+    {
+      "id": 12,
+      "name": "Epilação facial",
+      "description": "Remoção dos pelos indesejados do rosto, proporcionando pele lisa e uniforme com resultado duradouro.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-005",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/Depilacao-com-Linha_qqold6.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/Depilacao-com-Linha_qqold6.jpg"],
+      "promo": false
+    },
+    {
+      "id": 13,
+      "name": "Brow lamination",
+      "description": "Técnica que alinha e fixa os fios das sobrancelhas para cima, criando um efeito preenchido, uniforme e duradouro.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-006",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/brow-lamination-passo-a-passo-02_wzx9zm.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/brow-lamination-passo-a-passo-02_wzx9zm.jpg"],
+      "promo": false
+    },
+    {
+      "id": 14,
+      "name": "Dermaplaning",
+      "description": "Esfoliação física que remove células mortas e a penugem do rosto, deixando a pele mais lisa, luminosa e com melhor absorção de produtos.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-007",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/78EB6252-1E12-46BA-A391-1FF252D86B06_dgzoab.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/78EB6252-1E12-46BA-A391-1FF252D86B06_dgzoab.jpg"],
+      "promo": false
     }
   ]
 }

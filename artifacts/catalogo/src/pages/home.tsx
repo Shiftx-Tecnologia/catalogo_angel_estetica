@@ -156,11 +156,12 @@ export default function Home() {
                   className="product-card"
                   onClick={() => window.open(buildWaLink(p), "_blank")}
                 >
-                  <div className="card-image-wrap">
+                  <div
+                    className="card-image-wrap"
+                    onClick={(e) => { e.stopPropagation(); setOpenProduct(p); }}
+                  >
                     <img src={p.image} alt={p.name} loading="lazy" />
-                    <span className={`card-badge ${p.promo ? "promo" : ""}`}>
-                      {p.promo ? "Promo" : p.category}
-                    </span>
+                    {p.promo && <span className="card-badge promo">Promo</span>}
                   </div>
                   <div className="card-body">
                     <span className="card-category">{p.category}</span>
