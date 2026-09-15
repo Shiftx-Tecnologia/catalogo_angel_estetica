@@ -8,6 +8,7 @@ type Product = {
   description: string;
   category: string;
   code: string;
+  price: string;
   image: string;
   images: string[];
   promo: boolean;
@@ -166,7 +167,7 @@ export default function Home() {
                     <span className="card-category">{p.category}</span>
                     <h3 className="card-name">{p.name}</h3>
                     <p className="card-desc">{p.description}</p>
-                    <span className="card-code">Cód. {p.code}</span>
+                    {p.price && <span className="card-price">{p.price}</span>}
                   </div>
                   <div className="card-footer">
                     <button
@@ -174,7 +175,7 @@ export default function Home() {
                       onClick={(e) => { e.stopPropagation(); window.open(buildWaLink(p), "_blank"); }}
                     >
                       <MessageCircle size={16} />
-                      Tenho interesse
+                      Falar no WhatsApp
                       <ChevronRight size={14} />
                     </button>
                   </div>
@@ -213,7 +214,7 @@ export default function Home() {
               <div className="modal-info">
                 <span className="modal-badge">{openProduct.category}</span>
                 <h2 className="modal-title">{openProduct.name}</h2>
-                <span className="modal-code">Cód. {openProduct.code}</span>
+                {openProduct.price && <span className="modal-price">{openProduct.price}</span>}
                 <p className="modal-desc">{openProduct.description}</p>
                 <a className="btn-whatsapp" href={buildWaLink(openProduct)} target="_blank" rel="noopener noreferrer">
                   <MessageCircle size={20} />

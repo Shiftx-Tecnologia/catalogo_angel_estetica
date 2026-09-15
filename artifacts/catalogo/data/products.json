@@ -22,6 +22,7 @@
       "description": "Kit contendo 1 Espuma facial, 1 Tônico e 1 Serum facial.",
       "category": "Skincare",
       "code": "SKN-001",
+      "price": "",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/c_pad,ar_1:1,b_rgb:FFE0E8/v1789068111/WhatsApp_Image_2026-09-10_at_16.09.56_jv4j17.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068111/WhatsApp_Image_2026-09-10_at_16.09.56_jv4j17.jpg"],
       "promo": false
@@ -32,6 +33,7 @@
       "description": "Espuma de limpeza facial que remove maquiagem e impurezas com suavidade, deixando a pele limpa, macia e refrescada.",
       "category": "Skincare",
       "code": "SKN-002",
+      "price": "",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/c_pad,ar_1:1,b_rgb:FFE0E8/v1789068110/WhatsApp_Image_2026-09-10_at_16.09.50_fksox7.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068110/WhatsApp_Image_2026-09-10_at_16.09.50_fksox7.jpg"],
       "promo": false
@@ -42,6 +44,7 @@
       "description": "Tônico facial que remove resíduos de impurezas, equilibra o pH da pele e prepara o rosto para melhor absorção dos produtos seguintes.",
       "category": "Skincare",
       "code": "SKN-003",
+      "price": "",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/c_pad,ar_1:1,b_rgb:FFE0E8/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.47_1_uqrh0z.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.47_1_uqrh0z.jpg"],
       "promo": false
@@ -52,56 +55,128 @@
       "description": "Sérum facial 5 em 1 que hidrata, ilumina, firma, reduz a aparência dos poros e uniformiza o tom da pele em uma única fórmula.",
       "category": "Skincare",
       "code": "SKN-004",
+      "price": "",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.49_2_nj2ov9.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789068109/WhatsApp_Image_2026-09-10_at_16.09.49_2_nj2ov9.jpg"],
       "promo": false
     },
     {
       "id": 6,
-      "name": "Extensão de cílios",
-      "description": "Técnica que alonga e dá volume aos cílios naturais, realçando o olhar com um resultado leve e duradouro.",
+      "name": "Extensão de cílios - Volume brasileiro",
+      "description": "Técnica de extensão de cílios que alonga e dá volume aos cílios naturais, realçando o olhar com um resultado leve e duradouro.",
       "category": "Procedimentos estéticos",
       "code": "PRO-001",
+      "price": "A partir de: R$ 190,00",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492586/extensao_y0txwi.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492586/extensao_y0txwi.jpg"],
       "promo": false
     },
     {
-      "id": 7,
-      "name": "Design de sobrancelhas",
-      "description": "Modelagem que ajusta o formato das sobrancelhas ao contorno do rosto, trazendo simetria e harmonia à expressão.",
+      "id": 20,
+      "name": "Extensão de cílios - Volume egípcio",
+      "description": "Técnica de extensão de cílios com efeito marcante e dramático, valorizando o olhar.",
       "category": "Procedimentos estéticos",
-      "code": "PRO-002",
-      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492587/design-de-sobrancelhas-1-811x526_uz76bw.webp",
-      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492587/design-de-sobrancelhas-1-811x526_uz76bw.webp"],
+      "code": "PRO-013",
+      "price": "A partir de: R$ 190,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789500432/egipcio_touadv.webp",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789500432/egipcio_touadv.webp"],
+      "promo": false
+    },
+    {
+      "id": 21,
+      "name": "Extensão de cílios - Volume Fox Eyes",
+      "description": "Técnica de extensão de cílios que alonga o canto externo, criando um efeito alongado e felino no olhar.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-014",
+      "price": "A partir de: R$ 200,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789500433/fox2_oludrn.webp",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789500433/fox2_oludrn.webp"],
+      "promo": false
+    },
+    {
+      "id": 22,
+      "name": "Extensão de cílios - Fio a fio",
+      "description": "Técnica de extensão de cílios com aplicação de um fio por vez, resultando em um efeito natural e leve.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-015",
+      "price": "A partir de: R$ 200,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789500432/cilios-fio-a-fio-volume-brasileiro_laq9t1.webp",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789500432/cilios-fio-a-fio-volume-brasileiro_laq9t1.webp"],
+      "promo": false
+    },
+    {
+      "id": 23,
+      "name": "Extensão de cílios - Volume russo",
+      "description": "Técnica de extensão de cílios com múltiplos fios finos por cílio natural, criando um efeito volumoso e encorpado.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-016",
+      "price": "A partir de: R$ 220,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789500433/russo_j4d6q7.webp",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789500433/russo_j4d6q7.webp"],
+      "promo": false
+    },
+    {
+      "id": 24,
+      "name": "Manutenção de cílios - até 10 dias",
+      "description": "Manutenção realizada quando ainda há cerca de 40% dos fios da extensão nos cílios naturais. Removemos os fios que cresceram ou ficaram desalinhados e repomos as extensões perdidas, mantendo os cílios sempre bonitos e preenchidos.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-017",
+      "price": "A partir de: R$ 70,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501028/image_34484a1c_kelhsw.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501028/image_34484a1c_kelhsw.jpg"],
+      "promo": false
+    },
+    {
+      "id": 25,
+      "name": "Manutenção de cílios - 15 a 20 dias",
+      "description": "Manutenção realizada quando ainda há cerca de 40% dos fios da extensão nos cílios naturais. Removemos os fios que cresceram ou ficaram desalinhados e repomos as extensões perdidas, mantendo os cílios sempre bonitos e preenchidos.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-018",
+      "price": "A partir de: R$ 100,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501028/image_34484a1c_kelhsw.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501028/image_34484a1c_kelhsw.jpg"],
+      "promo": false
+    },
+    {
+      "id": 26,
+      "name": "Manutenção de cílios - 21 a 27 dias",
+      "description": "Manutenção realizada quando ainda há cerca de 40% dos fios da extensão nos cílios naturais. Removemos os fios que cresceram ou ficaram desalinhados e repomos as extensões perdidas, mantendo os cílios sempre bonitos e preenchidos.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-019",
+      "price": "A partir de: R$ 120,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501028/image_34484a1c_kelhsw.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501028/image_34484a1c_kelhsw.jpg"],
+      "promo": false
+    },
+    {
+      "id": 27,
+      "name": "Manutenção de cílios - 30 dias ou nova colocação",
+      "description": "A partir de 30 dias, o serviço é avaliado presencialmente para definir entre manutenção ou nova colocação completa.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-020",
+      "price": "Avaliar",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501028/image_34484a1c_kelhsw.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501028/image_34484a1c_kelhsw.jpg"],
       "promo": false
     },
     {
       "id": 8,
       "name": "Limpeza de pele",
-      "description": "Procedimento que remove cravos, impurezas e células mortas, promovendo uma pele mais limpa, saudável e uniforme.",
+      "description": "Procedimento que remove impurezas, cravos e células mortas. Remove o excesso de oleosidade e promove uma pele mais limpa e saudável.",
       "category": "Procedimentos estéticos",
       "code": "PRO-003",
+      "price": "A partir de: R$ 150,00",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492586/limpeza-de-pele-1-811x526_wcrrrv.png",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789492586/limpeza-de-pele-1-811x526_wcrrrv.png"],
       "promo": false
     },
     {
-      "id": 11,
-      "name": "Buço",
-      "description": "Remoção dos pelos do buço com técnica precisa, deixando a região lisa e uniforme.",
-      "category": "Procedimentos estéticos",
-      "code": "PRO-004",
-      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/depilacao-de-buco-3_hyelup.webp",
-      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/depilacao-de-buco-3_hyelup.webp"],
-      "promo": false
-    },
-    {
       "id": 12,
       "name": "Epilação facial",
-      "description": "Remoção dos pelos indesejados do rosto, proporcionando pele lisa e uniforme com resultado duradouro.",
+      "description": "Remoção dos pelos do rosto com técnica que proporciona mais suavidade e durabilidade.",
       "category": "Procedimentos estéticos",
       "code": "PRO-005",
+      "price": "A partir de: R$ 90,00",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/Depilacao-com-Linha_qqold6.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/Depilacao-com-Linha_qqold6.jpg"],
       "promo": false
@@ -109,9 +184,10 @@
     {
       "id": 13,
       "name": "Brow lamination",
-      "description": "Técnica que alinha e fixa os fios das sobrancelhas para cima, criando um efeito preenchido, uniforme e duradouro.",
+      "description": "Procedimento estético semipermanente que alinha, modela e levanta os fios das sobrancelhas. Usando produtos químicos específicos, proporcionando um efeito volumoso, encorpado e um visual mais preenchido, sem falhas e super natural.",
       "category": "Procedimentos estéticos",
       "code": "PRO-006",
+      "price": "A partir de: R$ 150,00",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/brow-lamination-passo-a-passo-02_wzx9zm.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/brow-lamination-passo-a-passo-02_wzx9zm.jpg"],
       "promo": false
@@ -119,11 +195,67 @@
     {
       "id": 14,
       "name": "Dermaplaning",
-      "description": "Esfoliação física que remove células mortas e a penugem do rosto, deixando a pele mais lisa, luminosa e com melhor absorção de produtos.",
+      "description": "Técnica de esfoliação que remove as células mortas e os pelos finos do rosto, estimula o colágeno, melhora a textura da pele, reduz marcas e linhas finas e promove mais viço.",
       "category": "Procedimentos estéticos",
       "code": "PRO-007",
+      "price": "A partir de: R$ 150,00",
       "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/78EB6252-1E12-46BA-A391-1FF252D86B06_dgzoab.jpg",
       "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/78EB6252-1E12-46BA-A391-1FF252D86B06_dgzoab.jpg"],
+      "promo": false
+    },
+    {
+      "id": 15,
+      "name": "Design Angel Beauty",
+      "description": "Design personalizado que valoriza o formato do seu rosto, realça seu olhar e harmoniza suas sobrancelhas.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-008",
+      "price": "A partir de: R$ 45,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501615/personalizado_bjd2bu.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501615/personalizado_bjd2bu.jpg"],
+      "promo": false
+    },
+    {
+      "id": 16,
+      "name": "Design com tintura RefectoCil",
+      "description": "Design de sobrancelhas com aplicação de tintura RefectoCil que estimula o crescimento do pelo, deixando os fios mais definidos e preenchidos.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-009",
+      "price": "A partir de: R$ 55,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789500433/refectocil_lwhzh6.webp",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789500433/refectocil_lwhzh6.webp"],
+      "promo": false
+    },
+    {
+      "id": 17,
+      "name": "Design personalizado + Buço",
+      "description": "Design de sobrancelhas personalizado com remoção do buço.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-010",
+      "price": "A partir de: R$ 60,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501281/design_buco_cnjho7.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501281/design_buco_cnjho7.jpg"],
+      "promo": false
+    },
+    {
+      "id": 18,
+      "name": "Buço + Região do queixo",
+      "description": "Remoção de pelos do buço e da região do queixo, deixando a pele mais lisa e uniforme.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-011",
+      "price": "A partir de: R$ 20,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/depilacao-de-buco-3_hyelup.webp",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789494556/depilacao-de-buco-3_hyelup.webp"],
+      "promo": false
+    },
+    {
+      "id": 19,
+      "name": "Epilação egípcia + máscara hidratante + design personalizado",
+      "description": "Remoção dos pelos do rosto com a técnica egípcia, seguida de máscara hidratante que promove nutrição profunda, e finalização com design personalizado.",
+      "category": "Procedimentos estéticos",
+      "code": "PRO-012",
+      "price": "A partir de: R$ 120,00",
+      "image": "https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501418/epilacao_mascara_design_fwr58d.jpg",
+      "images": ["https://res.cloudinary.com/dxnmjt7zn/image/upload/v1789501418/epilacao_mascara_design_fwr58d.jpg"],
       "promo": false
     }
   ]
